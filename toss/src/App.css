@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "tossfont";
+  src: url("./assets/fonts/SpoqaHanSansNeo-Regular.ttf");
+}
+
+* {
+  font-family: "tossfont";
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid transparent;
+  left: 0;
+}
+
+.navbar_default {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.navbar_inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  margin: 0 240px;
+}
+
+.navbar_content {
+  width: 100%;
+  overflow-y: hidden;
+  display: flex;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar-item {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.navbar-item > a {
+  padding: 12px 10px;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: left;
+}
+
+.language {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto 0 0;
+}
+
+.korean {
+  margin-left: 44px;
+}
